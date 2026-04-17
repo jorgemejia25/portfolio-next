@@ -22,7 +22,7 @@ const cormorantGaramond = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: 'Jorge Mejía — Fullstack Developer',
+  title: 'Jorge Mejia',
   description:
     'Portfolio of Jorge Mejía, fullstack developer based in Guatemala City, building web applications and APIs.',
 };
