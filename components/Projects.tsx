@@ -49,6 +49,17 @@ const PROJECTS = [
     href: 'https://www.insfiregt.com',
     hue: 10,
   },
+  {
+    id: '005',
+    name: 'TABGT',
+    tag: 'webapp',
+    year: '2026',
+    role: 'Fullstack Developer',
+    desc: 'Web app focused on fast navigation and a clean, minimal experience.',
+    stack: ['Next.js', 'React', 'Web App'],
+    href: 'https://tabgt.vercel.app',
+    hue: 300,
+  },
 ];
 
 interface ProjectRowProps {
