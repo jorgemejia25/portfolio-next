@@ -81,7 +81,6 @@ function ProjectRow({ project, index, last }: ProjectRowProps) {
   return (
     <div
       ref={ref}
-      data-cursor="hover"
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
       onMouseMove={handleMove}

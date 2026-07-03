@@ -64,7 +64,6 @@ export default function Nav({ active }: NavProps) {
     >
       <a
         href="#hero"
-        data-cursor="hover"
         onClick={(e) => {
           e.preventDefault();
           jump('hero');
@@ -100,7 +99,6 @@ export default function Nav({ active }: NavProps) {
           <a
             key={s.id}
             href={'#' + s.id}
-            data-cursor="hover"
             onClick={(e) => {
               e.preventDefault();
               jump(s.id);
@@ -127,7 +125,6 @@ export default function Nav({ active }: NavProps) {
       {/* Mobile toggle */}
       <button
         className="nav-mobile"
-        data-cursor="hover"
         onClick={() => setOpen(!open)}
         style={{ display: 'none', width: 32, height: 32, position: 'relative' }}
       >

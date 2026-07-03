@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import Cursor from '@/components/Cursor';
 import ScrollProgress from '@/components/ScrollProgress';
 import Nav from '@/components/Nav';
 import Hero from '@/components/Hero';
@@ -94,7 +93,6 @@ export default function Page() {
   return (
     <>
       <ScrollProgress scrollY={scrollY} />
-      <Cursor />
       <Nav active={active} />
       <Hero scrollY={scrollY} />
       <Ticker items={TICKER_ITEMS} speed={70} />

@@ -76,7 +76,6 @@ export default function Tweaks({ neonColor, onNeon, theme, onTheme }: TweaksProp
 
   return (
     <div
-      data-cursor="hover"
       id="jm-tweaks"
       style={{
         ...shell,

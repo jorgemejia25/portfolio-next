@@ -43,7 +43,6 @@ function TimelineRow({ item, index, last }: TimelineRowProps) {
     <div
       ref={ref}
       className={'reveal' + (visible ? ' in' : '')}
-      data-cursor="hover"
       style={{
         display: 'grid',
         gridTemplateColumns: '160px 1fr',

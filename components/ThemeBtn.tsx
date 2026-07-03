@@ -8,7 +8,6 @@ interface ThemeBtnProps {
 export default function ThemeBtn({ theme, onToggle }: ThemeBtnProps) {
   return (
     <button
-      data-cursor="hover"
       onClick={onToggle}
       aria-label="Toggle theme"
       onMouseEnter={(e) => {

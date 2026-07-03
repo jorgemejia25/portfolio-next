@@ -104,7 +104,6 @@ export default function Contact() {
             style={{ display: 'flex', flexDirection: 'column', gap: 20, paddingTop: 32 }}
           >
             <button
-              data-cursor="hover"
               onClick={copy}
               onMouseEnter={(e) => {
                 e.currentTarget.style.transform = 'translateY(-3px)';
@@ -157,7 +156,6 @@ export default function Contact() {
                   href={s.href}
                   target={s.href.startsWith('http') ? '_blank' : undefined}
                   rel={s.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                  data-cursor="hover"
                   onMouseEnter={(e) => {
                     (e.currentTarget as HTMLAnchorElement).style.background = 'var(--bg-2)';
                   }}

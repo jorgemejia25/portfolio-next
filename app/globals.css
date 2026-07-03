@@ -61,14 +61,6 @@ body {
   overflow-x: hidden;
 }
 
-@media (hover: hover) and (pointer: fine) {
-  html,
-  body,
-  a,
-  button {
-    cursor: none;
-  }
-}
 
 body::before {
   content: '';
@@ -162,11 +154,6 @@ p {
   transform-origin: left;
 }
 
-@media (hover: none) {
-  .jm-cursor {
-    display: none !important;
-  }
-}
 
 section {
   position: relative;
